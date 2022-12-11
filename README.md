@@ -13,7 +13,7 @@ A positive sample $s$ is a real datapoint with a large $P(s)$ under the training
 A negative sample $s'$ is a fake datapoint with a small $P(s')$ under the training distribution.
 
 ![](./imgs/layer.png)
-
+gggg
 Among the many ways of generating the positive/negative samples, for MNIST, we have:\
 Positive sample $s = merge(x, y)$, the image and its label\
 Negative sample $s' = merge(x, y_{random})$, the image and a random label
